@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{9CB581EE-CAF5-43BE-968F-E404AEBB4E7F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Crawler.Abstractions", "Bible.Crawler.Abstractions\Bible.Crawler.Abstractions.csproj", "{664AC419-87AD-4F51-A632-85156CF932EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bible.Crawler", "Bible.Crawler\Bible.Crawler.csproj", "{43135D8D-4395-43ED-97F8-05FEA77E2088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C7CF4DD8-C1C3-428E-B4C2-E7D9471A9EE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bible.Crawler.Tests", "..\test\Bible.Crawler.Tests\Bible.Crawler.Tests.csproj", "{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{664AC419-87AD-4F51-A632-85156CF932EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664AC419-87AD-4F51-A632-85156CF932EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664AC419-87AD-4F51-A632-85156CF932EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664AC419-87AD-4F51-A632-85156CF932EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43135D8D-4395-43ED-97F8-05FEA77E2088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43135D8D-4395-43ED-97F8-05FEA77E2088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43135D8D-4395-43ED-97F8-05FEA77E2088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43135D8D-4395-43ED-97F8-05FEA77E2088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCD72ACE-FAFC-4A7E-9FAC-D32223B5BB40} = {C7CF4DD8-C1C3-428E-B4C2-E7D9471A9EE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E266C4A0-B80B-4873-9DE4-36FD63F2C42E}
+	EndGlobalSection
+EndGlobal
